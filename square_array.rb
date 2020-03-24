@@ -9,4 +9,5 @@ end
 
 def square_array_with_collect(array)
   array.collect{|numbers| numbers **2}
+  binding.pry
 end
